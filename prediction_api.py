@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from PIL import Image
 
 load_dotenv()
-genai.configure(api_key="AIzaSyAHTsuUjUOaZk-9xWvEROaGToB5lLh2On4")
+genai.configure(api_key="GEMINI_API_KEY")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.set_page_config(page_title="Gemini Chatbot for Ml Task")
